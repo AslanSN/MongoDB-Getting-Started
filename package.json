@@ -1,0 +1,19 @@
+{
+  "name": "mongodb-getting-started",
+  "version": "1.0.0",
+  "description": "Small node backend setup that needs to connect to MongoDB and to manage an user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AslanSN/MongoDB-Getting-Started.git"
+  },
+  "author": "AslanSN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AslanSN/MongoDB-Getting-Started/issues"
+  },
+  "homepage": "https://github.com/AslanSN/MongoDB-Getting-Started#readme"
+}
