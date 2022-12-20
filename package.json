@@ -4,6 +4,7 @@
   "description": "Small node backend setup that needs to connect to MongoDB and to manage an user.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,20 @@
   "bugs": {
     "url": "https://github.com/AslanSN/MongoDB-Getting-Started/issues"
   },
-  "homepage": "https://github.com/AslanSN/MongoDB-Getting-Started#readme"
+  "homepage": "https://github.com/AslanSN/MongoDB-Getting-Started#readme",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "5.1.0",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "jsonwebtoken": "8.5.1",
+    "mongo": "0.1.0",
+    "mongoose": "6.8.1",
+    "mongoose-unique-validator": "3.1.0",
+    "nodemon": "2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "8.30.0"
+  }
 }
