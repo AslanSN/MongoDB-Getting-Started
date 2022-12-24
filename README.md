@@ -28,7 +28,7 @@ const userSchema = new Schema({
  },
  age: Number,
  city: String,
- passwordHash: String //not required as it not part of the tasks
+ passwordHash: String //not required as it is not part of the tasks
 })
 ```
 
