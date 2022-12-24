@@ -16,7 +16,15 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (request, response) => {
-	response.send('<h1>Backend inicializado</h1>')
+	response.send(`
+
+		<h1>Minimal Users API</h1>
+		<p>
+		Backend lifted with success!<br/>
+		You can now start to test the actions to see this API's behaviour!
+		</p>
+
+		`)
 })
 
 app.use('/api/users', usersRouter)
