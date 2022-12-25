@@ -8,7 +8,7 @@ import cors from 'cors'
 //Middlewares
 import handleErrors from './middlewares/handleErrors.js'
 import notFound from './middlewares/notFound.js'
-import getUsersRouter from './controllers/GETUsers.js'
+import getUsersRouter from './controllers/getUsers.js'
 import postUsersRouter from './controllers/postUsers.js'
 import deleteUsersRouter from './controllers/deleteUsers.js'
 import putUsersRouter from './controllers/putUsers.js'
