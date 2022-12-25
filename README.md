@@ -28,7 +28,6 @@ const userSchema = new Schema({
  },
  age: Number,
  city: String,
- passwordHash: String //not required as it is not part of the tasks
 })
 ```
 
@@ -37,7 +36,7 @@ const userSchema = new Schema({
 3. Controller to create the user ·  `'./controllers/users.js'` ·
 4. Controller to delete the user · `'./controllers/users.js'` ·
 5. Controller to return the user · `'./controllers/users.js'` ·
-6. Controller to update the user. `TODO`
+6. Controller to update the user. `'./controllers/putUsers.js`
 7. Server can be lifted and to the previous actions. ✔️
 
 ## How to run it
@@ -54,7 +53,7 @@ npm start
 - You shall open your browser at the url: ['http://localhost:3002/api/users'](http://localhost:3002/api/users) to do your all the API actions needed.
 - You can use Postman, Insomnia, Mockoon or the .rest files at `./requests/` files to do the actions and to see the API behaviour.
 
-#### Extra
+### Extra
 
 If you want to use the .rest files or you want to get inside the entire app you can use `git clone url` or just download the zip, extract on your device and open it with VS Code.
 

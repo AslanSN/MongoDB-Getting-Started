@@ -8,7 +8,10 @@ import cors from 'cors'
 //Middlewares
 import handleErrors from './middlewares/handleErrors.js'
 import notFound from './middlewares/notFound.js'
-import usersRouter from './controllers/users.js'
+import getUsersRouter from './controllers/GETUsers.js'
+import postUsersRouter from './controllers/postUsers.js'
+import deleteUsersRouter from './controllers/deleteUsers.js'
+import putUsersRouter from './controllers/putUsers.js'
 
 const app = express()
 
@@ -27,7 +30,10 @@ app.get('/', (request, response) => {
 		`)
 })
 
-app.use('/api/users', usersRouter)
+app.use('/api/users', getUsersRouter)
+app.use('/api/users', postUsersRouter)
+app.use('/api/users', deleteUsersRouter)
+app.use('/api/users', putUsersRouter)
 
 /**
  * *Error handlers*

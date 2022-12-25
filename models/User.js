@@ -8,8 +8,7 @@ const userSchema = new Schema({
 		required: true,
 	},
 	age: Number,
-	city: String,
-	passwordHash: String
+	city: String
 })
 
 userSchema.set('toJSON', {

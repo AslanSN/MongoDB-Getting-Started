@@ -1,0 +1,1 @@
+GET http://localhost:3002/api/users/63a796756df886274f87cc36

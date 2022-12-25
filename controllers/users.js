@@ -1,5 +1,3 @@
-import bcrypt from 'bcrypt'
-
 import express from 'express'
 import User from '../models/User.js'
 
@@ -12,16 +10,12 @@ usersRouter.get('/', async (request, response) => {
 
 usersRouter.post('/', async (request, response) => {
 	const { body } = request
-	const { username, age, city, password } = body
-
-	const saltRounds = 10
-	const passwordHash = await bcrypt.hash(password, saltRounds)
+	const { username, age, city} = body
 
 	const user = new User({
 		username,
 		age,
 		city,
-		passwordHash
 	})
 
 	const userSaved = await user.save()

@@ -1,0 +1,6 @@
+PUT http://localhost:3002/api/users/63a796756df886274f87cc36
+Content-Type: application/json
+
+{
+	"city": "Palma"
+}

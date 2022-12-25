@@ -1,15 +1,15 @@
-HTTP/1.1 201 Created
+HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 79
-ETag: W/"4f-e2QUoOnSKJ9I7qSUCV21S/UNM3s"
-Date: Sun, 25 Dec 2022 00:16:54 GMT
+Content-Length: 78
+ETag: W/"4e-dbZWokVfVSM3aYmnccI97KNop0I"
+Date: Sun, 25 Dec 2022 00:28:34 GMT
 Connection: close
 
 {
   "username": "AslanSN",
   "age": 30,
-  "city": "Madrid",
+  "city": "Palma",
   "id": "63a796756df886274f87cc36"
 }
