@@ -13,7 +13,7 @@ import postUsersRouter from './controllers/postUsers.js'
 import deleteUsersRouter from './controllers/deleteUsers.js'
 import putUsersRouter from './controllers/putUsers.js'
 
-const app = express()
+export const app = express()
 
 app.use(cors())
 app.use(express.json())
